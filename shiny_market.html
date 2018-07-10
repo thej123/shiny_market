@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Shiny Market</title>
+  <meta charset="utf-8">
+  <style type="text/css">
+  </style>
+  <link rel="stylesheet" href="shiny_market.css">
+  <script type="text/javascript" src="shiny_market.js"></script>
+  <script type="text/javascript" src="clock.js"></script>
+</head>
+<body onload="startclock()">
+    <div id='main'>
+        <h2>Countdown to 25th of this Month Sale</h2>
+        <p id="time">00:00:00</p>
+        <a id='color_me' onclick="load_item()">Catalog of Specials</a><br>
+        <form>
+        <select id='my_select' name='selection'>
+            <option value="0">Massagers & Grooming Tools</option>
+            <option value="1">Kitchen Mixer</option>
+            <option value="2">Men's 3 in 1 jacket</option>
+            <option value="3">10k to 14k gold earrings</option>
+            <option value="4">Women's coat</option>
+        </select>
+        </form>
+        <button onclick="go_load()">Go</button>
+        <hr>
+
+
+        <div id='hidden_div' hidden='true'>
+            <a onclick="previous()" href="javascript:void()" class="previous round">&#8249;</a>
+            <img onclick="rotation()" src"" alt='' height="400" width="400">
+            <a onclick="next()" href="javascript:void()" class="next round">&#8250;</a>
+            <p id='descriptions'></p>
+        </div>
+        
+    </div><br><br>
+    <img id='imageMap' src="http://www.ocgoodwill.org/content/images/Shop/shopgoodwill/shopgoodwill.jpg" width="600" height="126" alt="Planets" usemap="#planetmap">
+    <map name="planetmap">
+        <area shape="circle" coords="" alt="1" href="">
+        <area shape="circle" coords="" alt="2" href="">
+        <area shape="circle" coords="" alt="3" href="">
+        <area shape="circle" coords="" alt="4" href="">
+        <area shape="circle" coords="" alt="5" href="">
+    </map>
+</body>
+</html>

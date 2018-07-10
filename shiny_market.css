@@ -1,0 +1,52 @@
+body {
+
+    background-image: url("https://dz2563isv5m4b4oy42huiqwm-wpengine.netdna-ssl.com/wp-content/uploads/2017/06/4th-of-july-sales-guide.jpeg");
+    background-repeat: repeat;
+    text-align: center;
+
+}
+
+div {
+    background-color: yellow;
+    text-align: center;
+}
+
+#color_me {
+    text-decoration: underline;
+    color: blue;
+}
+
+.previous {
+    background-color: #4CAF50;
+    color: black;
+}
+
+.next {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+#main, a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+hr {
+    border: none;
+   height: 10px;
+   background-color: red;
+}
+
+#imageMap {
+    opacity: 0.7;
+    display: inline-block;
+}
+ 
+ 
+
+
